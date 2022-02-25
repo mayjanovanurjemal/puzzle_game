@@ -1,0 +1,65 @@
+body {
+	background-color: rgb(188, 247, 255);
+}
+
+.board {
+	margin: 0 auto;
+	width: 405px;
+	height: 405px;
+	position: relative;
+	background: rgb(46, 148, 153);
+}
+
+.tile {
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	background: rgb(46, 148, 153);
+	transition: all 0.1s ease-in-out;
+	border-radius: 2px;
+	background-image: url('IMG_20200425_184159_252.jpg');
+	background-size: 400px 400px;
+}
+
+.overlay {
+	width: 405px;
+	height: 405px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: #0004;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.moves {
+	margin-left: 47%;
+	background-color:green;
+	color: #ffffff;
+	text-align: center;
+	font-size: larger;
+	flex:inline-block;
+	font-family: 'Broadway';
+    border-radius: 10px;
+	padding: 5px;
+	width: 50px;
+}
+  
+.big-button {
+	margin-left: 46%;
+	background-color: rgb(231, 65, 50);
+	color: #ffffff;
+	font-size: larger;
+	text-align: center;
+	font-family: 'Broadway';
+    border-radius: 10px;
+	padding: 5px;
+	width: 100px;
+}
+  
+.big-button:hover {
+	background-color: #405341;
+	color: white;
+}
